@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 25px;
+    width: 56%;
+  }
+  .container img {
+    width: 170px;
+  }
+  .myDetails {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    border: 2px solid rgb(233, 228, 228);
+    padding: 8px 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 20px rgb(233, 228, 228);
+  }
+  .myDetails img {
+    width: 40px;
+  }
+  .myDetails .left {
+    display: flex;
+    gap: 10px;
+  }
+  .body_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0px;
+    gap: 30px;
+  }
+  .body_container .heading {
+    width: 330px;
+  }
+  .body_container button {
+    width: 150px;
+    border: none;
+    color: white;
+    background-color: orangered;
+    padding: 15px;
+    border-radius: 25px;
+    margin-left: 98px;
+  }
+  .body_container button i {
+    margin-left: 6px;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+  .form .p {
+    margin: 15px 0px 4px 5px;
+    color: rgb(131, 127, 127);
+  }
+  .form .p1 {
+    margin-left: 100px;
+  }
+  .firstRow {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .firstRow .left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid rgb(210, 178, 178);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgb(210, 178, 178);
+  }
+  .firstRow .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgb(210, 178, 178);
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0px 0px 4px rgb(210, 178, 178);
+  }
+  .form i {
+    color: rgb(168, 170, 170);
+  }
+  .secondRow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgb(210, 178, 178);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgb(210, 178, 178);
+    width: 10;
+  }
+  .thirdRow {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid rgb(210, 178, 178);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px rgb(210, 178, 178);
+    width: 10;
+  }
+  .footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 88px 10px 0px 65px;
+  }
+  .footer .left {
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    color: rgb(164, 172, 172);
+  }
+  .footer button {
+    padding: 10px 25px;
+    background-color: rgb(241, 237, 237);
+    border: none;
+    border-radius: 20px;
+  }
+  .footer button a {
+    text-decoration: none;
+    color: black;
+  }
+  
