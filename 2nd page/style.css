@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
   }
+  body{
+    background-color: aliceblue;
+
+  }
   .container {
     display: flex;
     align-items: center;
@@ -28,7 +32,7 @@
       justify-content:space-between;
   }
   .body_container img{
-      width: 610px;
+      width: 530px;
   }
   .body_container .main_heading{
     display: flex;
